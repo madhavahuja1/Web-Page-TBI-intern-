@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Web Page</title>
+    <link rel="stylesheet" href="TBI.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Choose Your Domain</h1>
+
+      <form id="myForm">
+        <label for="name">Enter your name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your Name"
+          required
+        />
+        <label for="domain">Select your favorite Domain:</label>
+        <select id="domain" name="color">
+          <option value="default">Default</option>
+          <option value="WBTECH">WB-TECH</option>
+          <option value="MARKETING">MARKETING</option>
+          <option value="FINANCE">FINANCE</option>
+        </select>
+        <button type="submit">Submit</button>
+      </form>
+
+      <div id="output"></div>
+    </div>
+
+    <script src="TBI.js"></script>
+  </body>
+</html>
